@@ -5,6 +5,18 @@
 
 An exploratory analysis of the TS Academy Logistics Operations Database, comprising 14 related Excel sheets covering shipments, customers, routes, drivers, vehicles, fuel, maintenance, delivery events and safety. The project uses four interconnected dashboard pages to examine operational and commercial performance.
 
+## Data Preparation & Transformation
+
+Before building the dashboards, I prepared and validated the logistics datasets in Power Query. This included reviewing column quality and distribution, validating data types, checking missing values, and preparing the tables for analysis.
+
+![Power Query Data Cleaning](screenshots/05_power_query_data_cleaning.png)
+
+## Data Model
+
+I built relationships across the logistics datasets to support analysis across customers, routes, loads, trips, delivery events, facilities, drivers, trucks, fuel purchases, maintenance records, safety incidents, and operational metrics.
+
+![Power BI Data Model](screenshots/06_power_bi_data_model.png)
+
 ![Four Power BI dashboard pages](screenshots/Opeyemi_Obikoya_Logistics_Capstone_Dashboard.png)
 
 ## Dashboard pages
